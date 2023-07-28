@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2",
+    "nodemon": "^2.0.22"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.15",
+    "npm": "9.6.7"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js ",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
